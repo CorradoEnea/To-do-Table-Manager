@@ -1,7 +1,7 @@
 {
     "id": "task-table-plugin",
     "name": "Task Table Plugin",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minAppVersion": "0.15.0",
     "description": "A plugin to manage tasks and to-dos in tables.",
     "author": "Crevatin Corrado Enea",
