@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Contenitore principale della tabella */
+.todo-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+/* Header della tabella (le intestazioni) */
+.todo-table thead {
+  background-color: var(--background-secondary);
+}
+
+/* Celle dell'header */
+.todo-table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+}
+
+/* Celle del corpo tabella */
+.todo-table td {
+  padding: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  color: var(--text-normal);
+}
+
+/* Alternanza di colore di sfondo per le righe */
+.todo-table tbody tr:nth-child(even) {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Hover su una riga */
+.todo-table tbody tr:hover {
+  background-color: var(--background-primary-alt);
+  cursor: pointer;
+}
+
+/* Stile del link interno alla cella */
+.todo-table td a {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+
+/* Cambio colore del link al passaggio del mouse */
+.todo-table td a:hover {
+  text-decoration: underline;
+}
